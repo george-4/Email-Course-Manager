@@ -1,0 +1,5 @@
+This is an Email Correspondence Course Manager written in PHP/SQL. It relies on PHPMailer to send emails (PHPMailer is included).
+
+To use it you need to create a MySQL database and import the provided file in 'sql' folder.
+
+Then in 'includes' folder rename 'default.config.inc.php' to 'config.inc.php' and add your database and email info.
