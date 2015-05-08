@@ -1,4 +1,6 @@
-This is an Email Correspondence Course Manager written in PHP/SQL. It relies on PHPMailer to send emails (PHPMailer is included).
+This is an Email Correspondence Course Manager written in PHP/SQL/JavaScript. 
+It relies on PHPMailer to send emails (PHPMailer files are included).
+jQuery UI library is also utilized.
 
 To use it you need to create a MySQL database and import the provided file in 'sql' folder.
 

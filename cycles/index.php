@@ -151,6 +151,8 @@ catch (PDOException $e)
   exit();
 }
 
+$cycles = array();
+
 foreach ($result as $row)
 {
   $cycles[] = array('id' => $row['id'], 'startdate' => $row['startdate'], 'lessons_sent' => $row['lessons_sent']);

@@ -50,7 +50,13 @@ if (isset($_GET['multiadd']))
   $name = '';
   $email = '';
   $id = '';
-  $cycle_id = $active_cycles[0];  //We preselect the latest cycle
+  if ($active_cycles){
+    $cycle_id = $active_cycles[0];  //We preselect the latest cycle if there are active cycles
+  }
+  else{
+    $cycle_id='';
+  }
+  
   $button = 'Add students';
 
   include 'multiform.html.php';

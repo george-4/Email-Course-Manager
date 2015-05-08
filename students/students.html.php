@@ -47,7 +47,7 @@
     </table>
     
     <?php else: ?>
-      <p> No students in Cycle <?php htmlout($_GET['cycle']); ?>. </p>
+      <p> No students found. </p>
     <?php endif; ?>
     <p><a href="..">Return to home</a></p>
   </body>
