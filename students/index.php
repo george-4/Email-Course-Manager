@@ -142,7 +142,7 @@ if (isset($_GET['multiaddform']))
   exit();
 }
 
-if ( isset($_POST['action']) and $_POST['action'] == 'sendpastlessons' and isset($_POST['id']) and isset($_POST['name']) and isset($_POST['email']) and isset($_POST['num_of_lessons']) )
+if ( isset($_POST['action']) and $_POST['action'] == 'sendpastlessons' and isset($_POST['id'], $_POST['name'], $_POST['email'], $_POST['num_of_lessons']) )
 {
 
   include_once '../includes/functions.inc.php';

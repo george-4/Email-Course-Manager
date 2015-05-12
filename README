@@ -5,3 +5,14 @@ jQuery UI library is also utilized.
 To use it you need to create a MySQL database and import the provided file in 'sql' folder.
 
 Then in 'includes' folder rename 'default.config.inc.php' to 'config.inc.php' and add your database and email info.
+
+
+Course Manager logic:
+
+We create a cycle and add our students to it. We choose when to send the next lesson to them by choosing the relevant menu option.
+Before the cycle ends and these student receive all the lessons we can begin a new cycle with new students.
+Each student will always receive the appropriate lesson for his cycle.
+We can add a new student mid-cycle and this gives us the option to automatically send him all the lessons he has missed.
+When all lessons are sent for a cycle, the cycle deactivates.
+All lessons consist of any number of files that are placed in the appropriate folder for each lesson.
+These are sent as email attachments to the students.
